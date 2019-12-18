@@ -1,0 +1,160 @@
+/*===============================================
+init 
+===============================================*/
+:root{
+    --main-primary-color: #14191d;
+    --main-secondary-color: #b8926b;
+    --main-txt-color-light: white;
+}
+
+
+/*===============================================
+navbar area
+===============================================*/
+
+.nav-logo{
+    width:200px;
+}
+
+.nav-icon {
+    font-size: 26px;
+    color:var(--main-primary-color);
+    vertical-align:center;
+}
+
+/*===============================================
+footer area
+===============================================*/
+
+
+.footer-bg {
+    background: var(--main-primary-color);
+}
+
+.footer-logo-img {
+    width: 250px;
+}
+
+.footer-header h5 {
+    font-weight: 300;
+    margin-bottom: 0;
+    text-transform: capitalize;
+}
+
+.footer-about-text p {
+    font-size: 14px;
+}
+
+.footer-header {
+    margin-bottom: 22px;
+    margin-top: 35px;
+}
+
+.links-list li {
+    padding: 0 0 5px 0;
+}
+
+.links-list li a:hover {
+    color: #ffffff;
+}
+
+.links-list li a {
+    color: #ffffff;
+    -webkit-transition: .3s all linear;
+    transition: .3s all linear;
+    font-size: 14px;
+}
+
+.copyright-text p a {
+    color: #ffffff;
+}
+
+.footer-contact-list li {
+    padding-bottom: 5px;
+    color: #ffffff;
+    font-size: 14px;
+    position: relative;
+    padding-left: 36px;
+}
+
+.footer-contact-list li span {
+    display: inline-block;
+    padding-right: 0;
+    font-size: 16px;
+    color: #ffffff;
+    position: absolute;
+    left: 0;
+}
+
+.footer-contact-list li a {
+    color: #ffffff;
+}
+
+.footer-bottom-wrap {
+    padding: 24px 2px;
+    border-top: 1px solid #999999;
+}
+
+.trams-conditaion ul li {
+    display: inline-block;
+    padding: 0 12px;
+}
+
+.copyright-text p {
+    margin-bottom: 0;
+    -webkit-transform: inherit;
+    transform: inherit;
+    font-size: 14px;
+}
+
+.footer-bottom-wrap {
+    padding: 20px 0;
+}
+
+.footer-widget {
+    margin-bottom: 40px;
+    color: #ffffff;
+}
+
+.links-list li:last-child,
+.footer-contact-list li:last-child {
+    padding-bottom: 0;
+}
+
+.trams-conditaion ul li a {
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.trams-conditaion ul li:last-child {
+    padding-right: 0;
+}
+
+.links-list li a:hover {
+    text-decoration: none;
+    margin-left: 4px;
+}
+
+.copyright-text p a {
+    font-weight: 700;
+    text-decoration: none;
+    transition: .3s all linear;
+}
+
+.social-net__item {
+    background: var(--main-secondary-color);
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.social-net__link{
+    color:white;
+}
+
+.social-net__link:hover{
+    color: var(--main-primary-color);
+}
+
+.social-icon{
+    font-size: 20px;
+}
